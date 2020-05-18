@@ -36,7 +36,7 @@
 >**Class To be used:**
 >
 >     class Student(Model):
->         username = CharField(max_length=255, nique=True)
+>         username = CharField(max_length=255, unique=True)
 >         points = IntegerField(default=0)
 
 >**Create a new record:**
@@ -66,7 +66,8 @@
 > This is equivalent to using WHERE statement in SQL
 >
 >     Student.select().order_by(Student.points.desc()).where(Student.content.contains(search_query))
-    Student.select().where(Student.name.contains(name), Student.points == points)
+>
+>     Student.select().where(Student.name.contains(name), Student.points == points)
 
 ### CRUD:
 - Create
