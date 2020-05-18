@@ -75,7 +75,7 @@
 - Update
 - Delete
 
-## Random Notes
+## Additional Notes
 - `content = TextField()` a peewee text field *no max max_length*
 - `timestamp = DateTimeField(default=datetime.now)` no pranethesis so that whenever we are adding a row it would call the function and gets the new time. if there  was pranethesis it would have it set to whenever you started running the script
 - common practice:

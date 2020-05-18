@@ -140,5 +140,5 @@ _Example#6_
   - Clicking on the class name that is being tested in this html page will display your script file in the browser in a decent github code like format where you can actually see which lines are not covered red and highlighted. Isn't this awesome!!
 - You can skip lines in your script from getting covered. They will appear highlighted in yellow in your nice html view.
 
-# Random Notes
+## Additional Notes
 > use `python -m http.server` in the shell to serve up a very basic HTTP server
