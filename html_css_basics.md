@@ -93,8 +93,41 @@ Cascading Style Sheets, a language used to describe how an HTML element should l
 
 -   Select the corresponding HTML elements or tags.
 -   Then between the curly braces, put your style instructions.
+-   Selecting the element by its tag name allows you to style that element everywhere it appears on that page.
+-   All of this styling options like color, fint size, line height are called CSS properties.
+-   Don't forget to add a semicolon at the end of each and every style line.
+
+### Color
+
+-   Color is a CSS property that changes the font color.
+
+### letter-spacing
+
+-   It changes the amount of spacing between each letter.
+-   The higher the pixels value the more space it is.
+
+### text-align
+
+-   aligns your text same like any other word processing applications work.
 
 ### Classes
 
 -   Classes are one of the ways we can tell our CSS that this is the element I want to style or fomrat in some way.
--   
+-   You can use classes to style a specific instance of an element.
+-   You indicate that the element we are styling is a class with a dot `.class {}`
+
+### border-radius
+
+-   Bordered radius is a fancy way to say curbed border.
+-   The higher pixels value is, the more rounded the corners are.
+-   This property can also take a percentage.
+-   you can use border-radius to create a circle.
+
+### Padding and margin
+
+-   Padding and margin are ways we can control the space around an element.
+-   Padding is the space that lies between the element and its border.
+-    Margin is the space that lies outside of an element's box.
+
+
+> _To explore more CSS properties checkout [css-tricks](https://css-tricks.com/almanac/)_
